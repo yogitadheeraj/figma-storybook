@@ -1,0 +1,7 @@
+node_modules
+dist
+storybook-static
+.env
+figma-cache/file.json
+audit
+.DS_Store

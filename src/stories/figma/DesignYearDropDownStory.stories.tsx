@@ -1,0 +1,22 @@
+import type { Meta, StoryObj } from "@storybook/react";
+import { FigmaNodePreview } from "../../components/FigmaNodePreview";
+
+const meta: Meta<typeof FigmaNodePreview> = {
+  title: "Figma/🖌️ 🍥 Design/Year drop down",
+  component: FigmaNodePreview,
+  tags: ["autodocs"],
+  args: {
+    pageName: "🖌️ 🍥 Design",
+    nodeName: "Year drop down",
+    nodeId: "I2265:10664;51954:18575",
+    nodeType: "FRAME",
+    width: 167,
+    height: 48,
+    figmaUrl: "https://www.figma.com/file/FILE_ID?node-id=I2265%3A10664%3B51954%3A18575"
+  }
+};
+
+export default meta;
+type Story = StoryObj<typeof FigmaNodePreview>;
+
+export const Review: Story = {};
